@@ -335,12 +335,12 @@ h3 small {
 }
 
 .icons {
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 
 .icons.block {
   text-align: left;
-  width: 10em;
+  max-width: 11em;
   margin: 0 auto;
 }
 
@@ -350,7 +350,7 @@ h3 small {
 .icons.block a:active,
 .icons.block a:focus {
   display: block;
-  margin: .25em;
+  margin: .25em 0;
 }
 
 @media (min-width:30em) {
