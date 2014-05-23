@@ -139,6 +139,7 @@ embed,
 object,
 video {
   max-width: 100%;
+  height: auto;
 }
 
 .ie6 img.full,
@@ -300,6 +301,10 @@ a:focus {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-color: #a8a6b4;
+}
+
+.section.head img {
+  width: 14em;
 }
 
 .section.dark {
